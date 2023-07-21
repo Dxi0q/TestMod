@@ -1,5 +1,6 @@
 package com.dxi0q.testmod;
 
+import com.dxi0q.testmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
@@ -20,6 +21,8 @@ public class TestMod
     private static final Logger LOGGER = LogUtils.getLogger();
     public TestMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
