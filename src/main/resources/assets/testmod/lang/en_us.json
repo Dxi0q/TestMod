@@ -1,5 +1,7 @@
 {
-  "item.testmod.ruby": "Ruby",
+  "item.testmod.siliconeingot": "Silicone Ingot",
+
+  "block.testmod.silicone_block": "Block of Silicone",
 
   "itemGroup.testtab": "Test Mod Tab"
 }

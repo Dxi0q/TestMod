@@ -11,7 +11,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TestMod.MOD_ID);
 
-    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
+    public static final RegistryObject<Item> SILICONEINGOT = ITEMS.register("siliconeingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
 
     public static void register(IEventBus eventBus) {
